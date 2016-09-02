@@ -49,6 +49,26 @@
                         });
                         $wrap.find('.section-4').addClass('active').siblings().removeClass('active');
                     }
+                    if (i == 4) {
+                        $wrap.find('.section-5').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-5').addClass('active').siblings().removeClass('active');
+                    }
+                    if (i == 5) {
+                        $wrap.find('.section-6').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-6').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 6) {
+                        $wrap.find('.section-7').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-7').addClass('active').siblings().removeClass('active');
+                    }
+
 
                 };
 

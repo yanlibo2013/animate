@@ -55,25 +55,48 @@ ul li.right-content a {
     left:30px;
 }
 .icon2-style {
-    top:116px;
-    left:98px;
+    position: absolute;
+    top: 173px;
+    left: 289px;
 }
 .icon3-style {
-    top:66px;
-    left:153px;
+    position: absolute;
+    top: 322px;
+    left: 155px;
+    font-size: 40.463px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 255, 255, 255 );
 }
 .icon4-style {
-    top:149px;
-    left:174px;
+    position: absolute;
+    top: 400px;
+    left: 281px;
+    font-size: 29.048px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 255, 255, 255 );
 }
 .icon5-style {
-    top:80px;
-    left:232px;
+    position: absolute;
+    top: 25px;
+    left: -233px;
+
 }
 .icon6-style {
-    top:177px;
-    left:276px;
+    font-size: 45px;
+    color: rgb( 255, 255, 255 );
+    font-family: "Microsoft YaHei";
 }
+.icon7-style{
+    font-size: 40px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 255, 255, 255 );
+}
+
+.icon8-style{
+    position: relative;
+    top: 59px;
+}
+
 .section-left {
     position:relative;
 }
@@ -276,6 +299,10 @@ div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td,body {
     margin:-6px 0 0 -6px;
     border-radius:100%;
 }
+.icon1{
+    position: absolute;
+    top: 170px;
+}
 .icon2 {
     -webkit-animation-duration:3s;
     -webkit-animation-delay:1s;
@@ -306,7 +333,7 @@ div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td,body {
     animation-delay: 5s /* W3C 和 Opera */
     -moz-animation-delay: 5s /* Firefox */
 }
-.section,.section-2 ,.section-3,.section-4{
+.section,.section-2 ,.section-3,.section-4,.section-5,.section-6{
     background-image: url("../images/mooc/bg.jpg");
 }
 body {
@@ -385,6 +412,18 @@ html,body {
 .put-section-4 {
     transform:translateY(-400%);
     -webkit-transform:translateY(-400%);
+}
+.put-section-5 {
+    transform:translateY(-500%);
+    -webkit-transform:translateY(-500%);
+}
+.put-section-6 {
+    transform:translateY(-600%);
+    -webkit-transform:translateY(-600%);
+}
+.put-section-7 {
+    transform:translateY(-700%);
+    -webkit-transform:translateY(-700%);
 }
 .section-btn {
     width:14px;
