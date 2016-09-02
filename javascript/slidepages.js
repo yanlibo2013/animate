@@ -69,6 +69,13 @@
                         $wrap.find('.section-7').addClass('active').siblings().removeClass('active');
                     }
 
+                    if (i == 7) {
+                        $wrap.find('.section-8').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-8').addClass('active').siblings().removeClass('active');
+                    }
+
 
                 };
 

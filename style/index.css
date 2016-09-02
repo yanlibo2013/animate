@@ -425,6 +425,10 @@ html,body {
     transform:translateY(-700%);
     -webkit-transform:translateY(-700%);
 }
+.put-section-8 {
+    transform:translateY(-800%);
+    -webkit-transform:translateY(-800%);
+}
 .section-btn {
     width:14px;
     position:fixed;
