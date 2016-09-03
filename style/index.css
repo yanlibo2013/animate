@@ -429,6 +429,14 @@ html,body {
     transform:translateY(-800%);
     -webkit-transform:translateY(-800%);
 }
+.put-section-9 {
+    transform:translateY(-900%);
+    -webkit-transform:translateY(-900%);
+}
+.put-section-10 {
+    transform:translateY(-1000%);
+    -webkit-transform:translateY(-1000%);
+}
 .section-btn {
     width:14px;
     position:fixed;

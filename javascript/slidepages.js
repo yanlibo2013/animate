@@ -76,6 +76,20 @@
                         $wrap.find('.section-8').addClass('active').siblings().removeClass('active');
                     }
 
+                    if (i == 8) {
+                        $wrap.find('.section-9').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-9').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 9) {
+                        $wrap.find('.section-10').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-10').addClass('active').siblings().removeClass('active');
+                    }
+
 
                 };
 
@@ -133,4 +147,5 @@
                     },
                     1000);
                 }
+
             });
