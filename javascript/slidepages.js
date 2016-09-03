@@ -90,6 +90,86 @@
                         $wrap.find('.section-10').addClass('active').siblings().removeClass('active');
                     }
 
+                    if (i == 10) {
+                        $wrap.find('.section-11').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-11').addClass('active').siblings().removeClass('active');
+                    }
+                    if (i == 11) {
+                        $wrap.find('.section-12').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-12').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 12) {
+                        $wrap.find('.section-13').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-13').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 13) {
+                        $wrap.find('.section-14').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-14').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 14) {
+                        $wrap.find('.section-15').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-15').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 15) {
+                        $wrap.find('.section-16').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-16').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 16) {
+                        $wrap.find('.section-17').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-17').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 17) {
+                        $wrap.find('.section-18').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-18').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 18) {
+                        $wrap.find('.section-19').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-19').addClass('active').siblings().removeClass('active');
+                    }
+                    if (i == 19) {
+                        $wrap.find('.section-20').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-20').addClass('active').siblings().removeClass('active');
+                    }
+                    if (i == 20) {
+                        $wrap.find('.section-21').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-21').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 21) {
+                        $wrap.find('.section-22').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-22').addClass('active').siblings().removeClass('active');
+                    }
 
                 };
 

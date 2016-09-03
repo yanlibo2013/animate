@@ -437,6 +437,55 @@ html,body {
     transform:translateY(-1000%);
     -webkit-transform:translateY(-1000%);
 }
+.put-section-11 {
+    transform:translateY(-1100%);
+    -webkit-transform:translateY(-1100%);
+}
+.put-section-12 {
+    transform:translateY(-1200%);
+    -webkit-transform:translateY(-1200%);
+}
+.put-section-13 {
+    transform:translateY(-1300%);
+    -webkit-transform:translateY(-1300%);
+}
+.put-section-14 {
+    transform:translateY(-1400%);
+    -webkit-transform:translateY(-1400%);
+}
+.put-section-15 {
+    transform:translateY(-1500%);
+    -webkit-transform:translateY(-1500%);
+}
+.put-section-16 {
+    transform:translateY(-1600%);
+    -webkit-transform:translateY(-1600%);
+}
+.put-section-17 {
+    transform:translateY(-1700%);
+    -webkit-transform:translateY(-1700%);
+}
+.put-section-18 {
+    transform:translateY(-1800%);
+    -webkit-transform:translateY(-1800%);
+}
+
+.put-section-19 {
+    transform:translateY(-1900%);
+    -webkit-transform:translateY(-1900%);
+}
+.put-section-20 {
+    transform:translateY(-2000%);
+    -webkit-transform:translateY(-2000%);
+}
+.put-section-21 {
+    transform:translateY(-2100%);
+    -webkit-transform:translateY(-2100%);
+}
+.put-section-22 {
+    transform:translateY(-2200%);
+    -webkit-transform:translateY(-2200%);
+}
 .section-btn {
     width:14px;
     position:fixed;
