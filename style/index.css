@@ -333,6 +333,24 @@ div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td,body {
     animation-delay: 5s /* W3C 和 Opera */
     -moz-animation-delay: 5s /* Firefox */
 }
+.icon7 {
+    -webkit-animation-duration:3s;
+    -webkit-animation-delay:6s;
+    animation-delay: 6s /* W3C 和 Opera */
+    -moz-animation-delay: 6s /* Firefox */
+}
+.icon8{
+    -webkit-animation-duration:3s;
+    -webkit-animation-delay:7s;
+    animation-delay: 7s /* W3C 和 Opera */
+    -moz-animation-delay: 7s /* Firefox */
+}
+.icon9 {
+    -webkit-animation-duration:3s;
+    -webkit-animation-delay:8s;
+    animation-delay: 8s /* W3C 和 Opera */
+    -moz-animation-delay: 8s /* Firefox */
+}
 .section,.section-2 ,.section-3,.section-4,.section-5,.section-6{
     background-image: url("../images/mooc/bg.jpg");
 }
@@ -485,6 +503,22 @@ html,body {
 .put-section-22 {
     transform:translateY(-2200%);
     -webkit-transform:translateY(-2200%);
+}
+.put-section-23 {
+    transform:translateY(-2300%);
+    -webkit-transform:translateY(-2300%);
+}
+.put-section-24 {
+    transform:translateY(-2400%);
+    -webkit-transform:translateY(-2400%);
+}
+.put-section-25 {
+    transform:translateY(-2500%);
+    -webkit-transform:translateY(-2500%);
+}
+.put-section-26 {
+    transform:translateY(-2600%);
+    -webkit-transform:translateY(-2600%);
 }
 .section-btn {
     width:14px;

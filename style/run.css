@@ -712,9 +712,6 @@ to {
 .active .zoomInRight {
   -webkit-animation-name: zoomInRight;
   animation-name: zoomInRight;
-  -webkit-animation-delay:2s;/* Safari 和 Chrome */
-  animation-delay: 2s /* W3C 和 Opera */
-  -moz-animation-delay: 2s /* Firefox */
 }
 .active .zoomInRight1 {
   -webkit-animation-name: zoomInRight;

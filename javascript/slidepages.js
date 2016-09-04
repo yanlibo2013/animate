@@ -171,6 +171,33 @@
                         $wrap.find('.section-22').addClass('active').siblings().removeClass('active');
                     }
 
+                    if (i == 22) {
+                        $wrap.find('.section-23').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-23').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 23) {
+                        $wrap.find('.section-24').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-24').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 24) {
+                        $wrap.find('.section-25').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-25').addClass('active').siblings().removeClass('active');
+                    }
+
+                    if (i == 25) {
+                        $wrap.find('.section-26').css({
+                            "display": "block"
+                        });
+                        $wrap.find('.section-26').addClass('active').siblings().removeClass('active');
+                    }
                 };
 
                 /*右侧按钮点击*/
