@@ -1,35 +1,51 @@
 {
-  "name": "gulp-cssmin",
-  "version": "0.1.7",
-  "description": "minify css using gulp",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
+  "name": "gulp-minifier",
+  "version": "0.1.4",
+  "description": "Minify HTML, JS, CSS with html-minifier, UglifyJS, CleanCSS.",
   "keywords": [
-    "gulpjs",
-    "gulpplugin",
-    "min",
-    "css"
+    "html",
+    "minifier",
+    "gulpplugin"
   ],
-  "dependencies": {
-    "gulp-util": "~2.2.0",
-    "graceful-fs": "~2.0.0",
-    "filesize": "~2.0.0",
-    "temp-write": "~0.1.0",
-    "map-stream": "0.0.4",
-    "clean-css": "^3.1.9",
-    "gulp-rename": "~1.1.0"
-  },
-  "author": "henry yan",
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "~1.17.1"
+  "homepage": "https://github.com/webyom/gulp-minifier",
+  "author": {
+    "name": "Gary Wang",
+    "email": "webyom@gmail.com",
+    "url": "http://webyom.org"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chilijung/gulp-cssmin"
+    "url": "https://github.com/webyom/gulp-minifier.git"
   },
-  "homepage": "https://github.com/chilijung/gulp-cssmin/",
-  "bugs": "https://github.com/chilijung/gulp-cssmin/issues/"
+  "bugs": {
+    "url": "https://github.com/webyom/gulp-minifier/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/webyom/gulp-minifier/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "build":"gulp",
+    "cssmin":"gulp cssmin",
+    "minifyJS":"gulp minifyJS",
+    "minifyHtml":"gulp minifyHtml"
+  },
+  "dependencies": {
+    "gulp-util": "^2.2.19",
+    "through2": "^0.5.1",
+    "html-minifier": "^0.6.5",
+    "clean-css": "^2.2.8",
+    "uglify-js": "^2.4.15"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "gulp-coffee": "^2.0.1",
+    "coffee-script": "^1.7.1"
+  }
 }

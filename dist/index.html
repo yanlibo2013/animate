@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>animatedemo</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <!--动画效果css-->
+    <link rel="stylesheet" type="text/css" href="style/run.css">
+    <script type="text/javascript" src="javascript/jquery-1.10.2.min.js"></script>
+    <!--页面滑动插件-->
+    <script type="text/javascript" src="javascript/slidepages.js"></script>
+    <script type="text/javascript" src="javascript/jquery.mousewheel.js"></script>
+</head>
+
+<body>
+<section class="section-wrap">
+    <div class="section section-1 active" id="section_1">
+        <div class="frame_section_wrapper" style="text-align: center">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="icon1" class="animated bounceInDown icon1 icon3"
+                 style="
+ -webkit-animation-duration:2s;
+    -webkit-animation-delay:2s;
+    animation-delay: 2s /* W3C 和 Opera */
+    -moz-animation-delay: 2s /* Firefox */"
+            >
+                <img src="images/mooc/page1/1-1.png" width="915" height="117" alt="">
+            </div>
+            <div id="icon2" class="animated bounceInDown icon2-style"
+                 style="
+ -webkit-animation-duration:2s;
+    -webkit-animation-delay:3s;
+    animation-delay: 3s /* W3C 和 Opera */
+    -moz-animation-delay: 3s /* Firefox */">
+                <img src="images/mooc/page1/1-2.png" width="295" height="98" alt="">
+            </div>
+            <div id="icon3" class="animated zoomInRight icon3-style"
+                 style="
+ -webkit-animation-duration:1.5s;
+    -webkit-animation-delay:4s;
+    animation-delay: 4s /* W3C 和 Opera */
+    -moz-animation-delay: 4s /* Firefox */">
+                MOOC+SaaS 企业在线教育新生态
+            </div>
+
+            <div id="icon6" class="animated rotateIn1 icon4-style" style="
+ -webkit-animation-duration:3s;
+    -webkit-animation-delay:5s;
+    animation-delay: 5s /* W3C 和 Opera */
+    -moz-animation-delay: 5s /* Firefox */">
+                通铭教育 — 企慕课堂 V4.0
+            </div>
+            <div id="icon7" class="">
+                <img src="images/mooc/page1/1-3.png" class="animated bounceInUp" width="440" height="" style="position: relative;top: 664px;
+-webkit-animation-duration:3s;
+    -webkit-animation-delay:6s;
+    animation-delay: 6s /* W3C 和 Opera */
+    -moz-animation-delay: 6s /* Firefox */">
+            </div>
+        </div>
+    </div>
+    <div class="section section-2" id="section_2" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <img src="images/mooc/2-1.png" width="890" height="440" class="animated zoomInLeft" style="position: relative;right: -150px;
+ -webkit-animation-duration:2.5s;
+  -webkit-animation-delay:2s;/* Safari 和 Chrome */
+  animation-delay: 2s /* W3C 和 Opera */
+  -moz-animation-delay: 2s /* Firefox */">
+            <img src="images/mooc/2-2.png" class="animated bounceInRight" width="1400"  style="    position: relative;
+    height: 156px;
+    top: 25px;
+ -webkit-animation-duration:2s;
+  -webkit-animation-delay:3s;/* Safari 和 Chrome */
+  animation-delay: 3s /* W3C 和 Opera */
+  -moz-animation-delay: 3s /* Firefox */"">
+        </div>
+    </div>
+    <div class="section section-3" id="section_3" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div class="animated zoomInRight1 icon6-style" style="
+             -webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;/* Safari 和 Chrome */">
+                为什么选择企慕课堂？
+            </div>
+            <div  class="icon8-style">
+                <img src="images/mooc/page2/img_02.png" width="600" class="animated fadeInLeft"style="
+             -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;/* Safari 和 Chrome */">
+                <img src="images/mooc/page2/img_03.png" width="600" class="animated fadeInRight" style="margin-top:10px;
+ -webkit-animation-duration:2.5s;
+ -webkit-animation-delay:4.5s;/* Safari 和 Chrome */">
+                <img src="images/mooc/page2/img_04.png" width="600" class="animated bounceInUp" style="margin-top:10px;
+ -webkit-animation-duration:2.5s;
+ -webkit-animation-delay:5.5s;/* Safari 和 Chrome */">
+                <img src="images/mooc/page2/img_05.png" width="108" height="" class="animated wobble" style=" -webkit-animation-duration:2.5s;
+ -webkit-animation-delay:6.5s;/* Safari 和 Chrome */position: absolute;top: 0px">
+                <img src="images/mooc/page2/img_06.png" width="108" class="animated fadeInRight" style=" -webkit-animation-duration:2.5s;
+ -webkit-animation-delay:7.5s;/* Safari 和 Chrome */position: absolute;top: 215px;">
+            </div>
+        </div>
+    </div>
+    <div class="section section-4" id="section_4" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <img src="images/mooc/3-2.png" class="animated zoomIn" width="1270" height="440" style="   -webkit-animation-duration:3s;
+ -webkit-animation-delay:2s;  position: relative;
+    top: 76px;
+    left: -202px;">
+        </div>
+    </div>
+    <div class="section section-5" id="section_5" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div class="animated zoomInRight1 icon6-style" style="
+             -webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;/* Safari 和 Chrome */">
+                企业行业解决方案
+            </div>
+            <div  class="icon8-style" style="width: 1042px;left: -92px;">
+                <img src="images/mooc/4-1.png" width="253" class="animated flipInY1" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;margin-right: 5px">
+                <img src="images/mooc/4-2.png" width="253" class="animated flipInY1" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:4.5s;margin-right: 5px">
+                <img src="images/mooc/4-3.png" width="253" class="animated flipInY1" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:5.5s;margin-right: 5px">
+                <img src="images/mooc/4-4.png" width="253" class="animated flipInY1" height="360" style="align-content: -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:6.5s;">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-6" id="section_6" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="
+             -webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;/* Safari 和 Chrome */">
+                六大应用场景
+            </div>
+            <div id="" class="icon8-style">
+                <img src="images/mooc/page4/group1/1.png" width="600" class="animated bounceInDown" style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;">
+                <img src="images/mooc/page4/group1/2.png" width="600" class="animated bounceInDown" height="" alt="" style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:4.5s;margin-top: 5px">
+                <img src="images/mooc/page4/group1/3.png" width="600" class="animated bounceInDown"height="" alt="" style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:5.5s;margin-top: 5px">
+                <img src="images/mooc/page4/group1/4.png" width="600" class="animated bounceInDown" height="" alt="" style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:6.5s;margin-top: 5px">
+                <img src="images/mooc/page4/group1/5.png" width="600" class="animated bounceInDown" height="" alt="" style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:7.5s;margin-top: 5px">
+                <img src="images/mooc/page4/group1/6.png" width="600" class="animated bounceInDown" height="" alt="" style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:8.5s;margin-top: 5px">
+            </div>
+        </div>
+    </div>
+    <div class="section section-7" id="section_7" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div class="animated zoomInRight1 icon6-style" style="
+             -webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;/* Safari 和 Chrome */">
+                平台功能
+            </div>
+            <img src="images/mooc/6-2.png" width="1152" class="animated zoomIn" style=" -webkit-animation-duration:2.5s;
+ -webkit-animation-delay:3.5s; position: relative;
+    top: 45px;
+    left: -101px;
+    height: 449px;">
+        </div>
+    </div>
+    <div class="section section-8" id="section_8" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style"style="
+             -webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                多终端一体化学习
+            </div>
+            <div id="" class="animated flipInX icon8-style" style="  -webkit-animation-duration:3.5s;
+ -webkit-animation-delay:3.5s;">
+                <img src="images/mooc/page3/1.png" width="600" height="" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section section-9" id="section_9" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="
+             -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:2.5s;">
+                首页个性化配置
+            </div>
+            <div id="" class="animated flipInY1 icon8-style" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:4s;    ">
+                <img src="images/mooc/8-1.png" width="446" style=" position: relative;
+    left: -267px;
+    height: 594px;
+    top: -46px;">
+            </div>
+            <img src="images/mooc/8-2.png" class="animated flipInY1" width="848" style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:5s;     position: relative;
+    left: 248px;
+    height: 539px;
+    top: -537px;
+    width: 700px;">
+        </div>
+        </div>
+    <div class="section section-10" id="section_10" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="
+             -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:2.5s;">
+               <!-- 首页个性化配置-->
+            </div>
+        </div>
+    </div>
+    <div class="section section-11" id="section_11" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="
+             -webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                企慕课堂-系列课
+            </div>
+            <img src="images/mooc/9-1.png" width="1589" class="animated rotateIn" style="   -webkit-animation-duration:4.5s;
+ -webkit-animation-delay:3.5s;  width: 1000px;
+    /* margin: 0 auto; */
+    position: relative;
+    top: 28px;
+    left: -53px;" >
+        </div>
+    </div>
+
+    <div class="section section-12" id="section_12" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px;width: 1000px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomIn icon7-style" style="
+             -webkit-animation-duration:2.5s;
+ -webkit-animation-delay:2.5s;">
+                企慕课堂-系列课页面
+            </div>
+            <img src="images/mooc/9-2.png" class="animated zoomInLeft" width="500" style="
+            -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;
+        position: relative;
+    top: 28px;
+    left: -8px;
+    height: 550px;
+    width: 450px;" >
+            <img src="images/mooc/9-3.png"class="animated zoomInRight" style="
+            -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:4.5s;
+            width: 526px;
+    position: relative;
+    top: 28px;
+    right: -88px;
+    height: 550px;" >
+        </div>
+    </div>
+
+    <div class="section section-13" id="section_13" style="display:none; text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 130px;width: 1000px">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div class="animated rotateIn1" style=' -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:2.5s;position: absolute;
+                 right: 571px;
+                 top: 231px;
+                 font-size: 60px;
+                 font-family: "Microsoft YaHei";
+            color: #ffffff;'>
+                课件内容形态
+            </div>
+            <div class="animated fadeInLeft" style=' -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;position: absolute;
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+    /* right: 761px; */
+    top: 330px;
+    left: -180px;'>点播、直播、考试、调查、H5课件、课堂培训</div>
+            <img src="images/mooc/10-1.png" class="animated fadeInRight"  style=" -webkit-animation-duration:1.5s;
+ -webkit-animation-delay:4.5s;
+                width: 700px;
+    position: relative;
+    top: 77px;
+    right: -330px;
+    height: 550px;" >
+        </div>
+    </div>
+
+    <div class="section section-14" id="section_14" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                企慕课程-商圈
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/page6/group2/left.png" class="animated fadeInRight"  width="500" height="500" style="-webkit-animation-duration:4.5s;
+ -webkit-animation-delay:3.5s;position: absolute;left: 44px;">
+                <img src="images/mooc/page6/group2/right.png" class="animated fadeInLeft"  width="500" height="500" style="
+                -webkit-animation-duration:4.5s;
+ -webkit-animation-delay:3.5s;position:absolute;right: 100px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-15" id="section_15" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                企慕课堂-商圈
+            </div>
+            <div id="" class="icon8-style">
+                <img src="images/mooc/page6/group1/1.png" class="animated zoomInLeft"  width="140" height="200" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;margin-left: 10px">
+                <img src="images/mooc/page6/group1/2.png" class="animated zoomInLeft"  width="140" height="200" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:4.5s;margin-left: 10px">
+                <img src="images/mooc/page6/group1/3.png" class="animated flipInY1"  width="140" height="200" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:5.5s;margin-left: 10px">
+                <img src="images/mooc/page6/group1/4.png" class="animated zoomInRight"  width="140" height="200" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:6.5s;margin-left: 10px">
+                <img src="images/mooc/page6/group1/5.png" class="animated zoomInRight"  width="180" height="200" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:7.5s;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-16" id="section_16" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                企慕课程-商圈
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/11-1.png" class="animated flipInY" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:3.5s;
+                   position: absolute;
+    top: -41px;
+    left: -138px;
+    width: 493px;">
+                <img src="images/mooc/11-2.png" class="animated flipInX"style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:4.5s;
+                    position: absolute;
+    right: -130px;
+    width: 761px;
+    top: 30px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-17" id="section_17" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                企慕课堂采用业界最新xAPI标准
+                <!--对用户的各类行为进行实时感知、动态跟踪、智能分析、科学管理 拷贝-->
+            </div>
+            <div id="" class="animated fadeInLeft1 icon7-style" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;font-size: 20px">
+                对用户的各类行为进行实时感知、动态跟踪、智能分析、科学管理 拷贝
+            </div>
+            <div id="" class="icon8-style"  style="width: 1000px">
+                <img src="images/mooc/12-1.png" class="animated zoomIn" style="webkit-animation-duration:3s;
+ -webkit-animation-delay:4.5s;
+                         position: absolute;
+    top: 16px;
+    left: -91px;
+    width: 1150px;">
+        </div>
+    </div>
+
+    </div>
+
+    <div class="section section-18" id="section_18" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                企慕课堂采用业界最新xAPI标准
+                <!--对用户的各类行为进行实时感知、动态跟踪、智能分析、科学管理 拷贝-->
+            </div>
+            <div id="" class="animated fadeInLeft1 icon7-style" style="-webkit-animation-duration:1.5s;
+ -webkit-animation-delay:3.5s;font-size: 20px">
+                对用户的各类行为进行实时感知、动态跟踪、智能分析、科学管理 拷贝
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/12-2.png" class="animated bounceInUp" style="-webkit-animation-duration:3.5s;
+ -webkit-animation-delay:4.5s;
+                            position: absolute;
+    top: -12px;
+    left: -91px;
+    width: 1088px;
+    height: 464px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-19" id="section_19" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                点击量最多的课程
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/12-3.png" class="animated bounceInLeft" style="-webkit-animation-duration:3s;
+ -webkit-animation-delay:3.5s;
+                     position: absolute;
+    top: -25px;
+    left: -91px;
+    width: 1088px;
+    height: 495px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-20" id="section_20" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                搜索量最多的课程
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/12-4.png" class="animated bounceInRight" style="-webkit-animation-duration:3s;
+ -webkit-animation-delay:3.5s;
+                     position: absolute;
+    top: -25px;
+    left: -91px;
+    width: 1088px;
+    height: 495px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-21" id="section_21" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="animated zoomInRight1 icon7-style" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:2.5s;">
+                用户的点评率
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/12-5.png" class="animated bounceInDown" style="-webkit-animation-duration:2s;
+ -webkit-animation-delay:3.5s;
+                     position: absolute;
+    top: -25px;
+    left: -91px;
+    width: 1088px;
+    height: 495px;">
+            </div>
+        </div>
+    </div>
+    <div class="section section-22" id="section_22" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/13-1.png" class="animated bounceInLeft" style="-webkit-animation-duration:3s;
+ -webkit-animation-delay:2.5s;
+        position: absolute;
+    top: -37px;
+    left: 67px;
+    width: 600px;
+    height: 773px;">
+                <img src="images/mooc/13-2.png" class="animated fadeInRight" style="
+ -webkit-animation-duration:2s;
+ -webkit-animation-delay:3.5s;
+        position: absolute;
+    top: 69px;
+    right: 27px;
+    width: 305px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-23" id="section_23" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/13-5.png" class="animated bounceInLeft " style="-webkit-animation-duration:2.5s;
+ -webkit-animation-delay:2.5s;
+       position: absolute;
+    top: -24px;
+    left: -158px;
+    width: 1200px;
+    height: 525px;">
+
+                <img src="images/mooc/13-3.png" class="animated bounceInUp" style="-webkit-animation-duration:3s;
+ -webkit-animation-delay:2.7s;
+              position: absolute;
+    top: 76px;
+    left: -95px;
+    width: 516px;
+    height: 388px;">
+
+
+
+                <img src="images/mooc/13-4.png" class="animated bounceInUp" style="-webkit-animation-duration:3s;
+ -webkit-animation-delay:2.9s;
+                   position: absolute;
+    top: 76px;
+    right: 43px;
+    width: 516px;
+    height: 388px;">
+
+                <span class="animated fadeInLeft" style='-webkit-animation-duration:3s;
+ -webkit-animation-delay:3.1s;
+                   font-family: "Microsoft YaHei";
+                color: #ffffff;
+                top: 13px;
+                left: -96px;
+                font-size: 32px;
+                font-family: ;
+                position: absolute;'>
+                    湖南德力重工有限公司
+                </span>
+                <span class="animated fadeInRight" style='-webkit-animation-duration:3s;
+ -webkit-animation-delay:3.3s;
+                      font-family: "Microsoft YaHei";
+                color: #ffffff;
+                top: 13px;
+                right: 238px;
+                font-size: 32px;
+                font-family: ;
+                position: absolute;'>
+                贝尔安亲
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-24" id="section_24" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/14-1.png" class="animated zoomIn" style="
+                -webkit-animation-duration:3s;
+ -webkit-animation-delay:2.5s;
+           position: absolute;
+    top: -79px;
+    left: -86px;
+    width: 1200px;
+    height: 680px">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-25" id="section_25" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/15-1.png" class="animated bounceInUp" style="
+                 -webkit-animation-duration:3s;
+ -webkit-animation-delay:2.5s;
+        position: absolute;
+    top: -37px;
+    left: 67px;
+    width: 600px;
+    height: 773px;">
+                <img src="images/mooc/15-2.png" class="animated bounceInDown" style="
+                 -webkit-animation-duration:3s;
+ -webkit-animation-delay:2.5s;
+        position: absolute;
+    top: 69px;
+    right: 27px;
+    width: 305px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-26" id="section_26" style="display:none;text-align: center">
+        <div class="frame_section_wrapper" style="padding-top: 152px;">
+            <div class="icon5-style animated fadeInLeft" style="
+ -webkit-animation-duration:2s;">
+                <img src="images/mooc/page2/2-1.png" width="500" height="133" alt="">
+            </div>
+            <div id="" class="icon8-style" style="width: 1000px">
+                <img src="images/mooc/15-3.png" class="animated bounceInLeft"   style="
+                 -webkit-animation-duration:3s;
+ -webkit-animation-delay:2.5s;
+                position: absolute;
+    left: -220px;
+    width: 700px;
+    top: 122px;
+                ">
+                <img src="images/mooc/15-4.png" class="animated zoomInRight"  style="
+                 -webkit-animation-duration:3s;
+ -webkit-animation-delay:2.7s;
+                   position: absolute;
+    right: -93px;
+    width: 563px;
+    top: -90px;
+">
+            </div>
+        </div>
+    </div>
+</section>
+<ul class="section-btn" style="display: none;">
+    <li class="on">
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>
+</ul>
+<div class="arrow" style="">
+    &laquo;
+</div>
+
+</body>
+
+</html>
